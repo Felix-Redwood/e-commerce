@@ -5,7 +5,7 @@ $(function() {
             number: $("#id_credit_card_number").val(),
             expMonth: $("#id_expiry_month").val(),
             expYear: $("#id_expiry_year").val(),
-            cvc: $("#id_cvv").val(),
+            cvc: $("#id_cvv").val()
         };
 
     Stripe.createToken(card, function(status, response) {
