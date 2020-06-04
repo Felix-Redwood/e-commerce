@@ -30,6 +30,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     'https://8000-b7faca6a-357c-4d46-a91e-c88c3a12ca8c.ws-eu01.gitpod.io/',
+    'https://ecommerce-felix-redwood.herokuapp.com/',
 ]
 
 
